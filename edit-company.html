@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from jobie.dexignzone.com/xhtml/ecom-checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Oct 2021 21:00:03 GMT -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Jobie : Job Portal Admin Template" />
+    <meta property="og:title" content="Jobie : Job Portal Admin Template" />
+    <meta
+      property="og:description"
+      content="Jobie : Job Portal Admin Template"
+    />
+    <meta property="og:image" content="page-error-404.html" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Jobie - Job Portal Bootstrap Admin Dashboard</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png" />
+    <link
+      href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+      <div class="sk-three-bounce">
+        <div class="sk-child sk-bounce1"></div>
+        <div class="sk-child sk-bounce2"></div>
+        <div class="sk-child sk-bounce3"></div>
+      </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+      <!--**********************************
+            Nav header start
+        ***********************************-->
+      <div class="nav-header">
+        <a href="index.html" class="brand-logo">
+          <svg class="logo-abbr" width="66.5px" height="66.5px">
+            <g>
+              <path
+                class="svg-logo-circle"
+                fill-rule="evenodd"
+                fill="rgb(64, 24, 157)"
+                d="M32.999,66.000 C14.774,66.000 -0.000,51.225 -0.000,33.000 C-0.000,14.775 14.774,-0.000 32.999,-0.000 C51.225,-0.000 66.000,14.775 66.000,33.000 C66.000,51.225 51.225,66.000 32.999,66.000 Z"
+              />
+            </g>
+            <g>
+              <path
+                class="svg-logo-icon-text"
+                fill-rule="evenodd"
+                stroke="rgb(255, 255, 255)"
+                stroke-width="1px"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                fill="rgb(255, 255, 255)"
+                d="M58.273,11.788 L53.346,35.007 C52.729,37.824 51.661,40.116 50.142,41.883 C48.623,43.602 46.868,44.939 44.874,45.894 C42.928,46.849 40.840,47.470 38.609,47.757 C36.379,48.091 34.243,48.258 32.202,48.258 C29.829,48.258 27.788,48.091 26.080,47.757 C24.371,47.470 22.852,47.040 21.523,46.467 C20.242,45.894 19.079,45.202 18.035,44.390 C16.991,43.530 15.947,42.599 14.902,41.597 L17.181,30.780 L30.565,30.780 C30.565,30.924 30.493,31.282 30.351,31.855 C30.256,32.380 30.138,33.025 29.995,33.789 C29.853,34.553 29.710,35.389 29.568,36.296 C29.473,37.203 29.426,38.039 29.426,38.803 C29.426,39.281 29.473,39.782 29.568,40.307 C29.663,40.832 29.829,41.334 30.066,41.811 C30.304,42.241 30.636,42.623 31.063,42.958 C31.538,43.244 32.107,43.387 32.771,43.387 C34.006,43.387 34.979,42.886 35.690,41.883 C36.450,40.832 37.114,38.946 37.683,36.224 L44.858,2.204 C50.110,4.228 54.714,7.552 58.273,11.788 Z"
+              />
+            </g>
+          </svg>
+          &nbsp;&nbsp;JobBoard
+        </a>
+        <div class="nav-control">
+          <div class="hamburger">
+            <span class="line"></span><span class="line"></span
+            ><span class="line"></span>
+          </div>
+        </div>
+      </div>
+      <!--**********************************
+            Nav header end
+        ***********************************-->
+
+      <!--**********************************
+            Header start
+        ***********************************-->
+      <div class="header">
+        <div class="header-content">
+          <nav class="navbar navbar-expand">
+            <div class="collapse navbar-collapse justify-content-between">
+              <div class="header-left">
+                <div class="dashboard_bar">Dashboard</div>
+              </div>
+
+              <ul class="navbar-nav header-right">
+                <li class="nav-item dropdown notification_dropdown">
+                  <a
+                    class="nav-link ai-icon"
+                    href="#"
+                    role="button"
+                    data-toggle="dropdown"
+                  >
+                    <svg
+                      width="26"
+                      height="28"
+                      viewBox="0 0 26 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.45251 25.6682C10.0606 27.0357 11.4091 28 13.0006 28C14.5922 28 15.9407 27.0357 16.5488 25.6682C15.4266 25.7231 14.2596 25.76 13.0006 25.76C11.7418 25.76 10.5748 25.7231 9.45251 25.6682Z"
+                        fill="#3E4954"
+                      />
+                      <path
+                        d="M25.3531 19.74C23.8769 17.8785 21.3995 14.2195 21.3995 10.64C21.3995 7.09073 19.1192 3.89758 15.7995 2.72382C15.7592 1.21406 14.5183 0 13.0006 0C11.4819 0 10.2421 1.21406 10.2017 2.72382C6.88095 3.89758 4.60064 7.09073 4.60064 10.64C4.60064 14.2207 2.12434 17.8785 0.647062 19.74C0.154273 20.3616 0.00191325 21.1825 0.240515 21.9363C0.473484 22.6721 1.05361 23.2422 1.79282 23.4595C3.08755 23.8415 5.20991 24.2715 8.44676 24.491C9.84785 24.5851 11.3543 24.64 13.0007 24.64C14.646 24.64 16.1524 24.5851 17.5535 24.491C20.7914 24.2715 22.9127 23.8415 24.2085 23.4595C24.9477 23.2422 25.5268 22.6722 25.7597 21.9363C25.9983 21.1825 25.8448 20.3616 25.3531 19.74Z"
+                        fill="#3E4954"
+                      />
+                    </svg>
+                    <span
+                      class="badge light text-white bg-primary rounded-circle"
+                      >52</span
+                    >
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <div
+                      id="DZ_W_Notification1"
+                      class="widget-media dz-scroll p-3 height380"
+                    >
+                      <ul class="timeline">
+                        <li>
+                          <div class="timeline-panel">
+                            <div class="media mr-2">
+                              <img
+                                alt="image"
+                                width="50"
+                                src="images/avatar/1.jpg"
+                              />
+                            </div>
+                            <div class="media-body">
+                              <h6 class="mb-1">Dr sultads Send you Photo</h6>
+                              <small class="d-block"
+                                >29 July 2020 - 02:26 PM</small
+                              >
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-panel">
+                            <div class="media mr-2 media-info">KG</div>
+                            <div class="media-body">
+                              <h6 class="mb-1">Resport created successfully</h6>
+                              <small class="d-block"
+                                >29 July 2020 - 02:26 PM</small
+                              >
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-panel">
+                            <div class="media mr-2 media-success">
+                              <i class="fa fa-home"></i>
+                            </div>
+                            <div class="media-body">
+                              <h6 class="mb-1">Reminder : Treatment Time!</h6>
+                              <small class="d-block"
+                                >29 July 2020 - 02:26 PM</small
+                              >
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-panel">
+                            <div class="media mr-2">
+                              <img
+                                alt="image"
+                                width="50"
+                                src="images/avatar/1.jpg"
+                              />
+                            </div>
+                            <div class="media-body">
+                              <h6 class="mb-1">Dr sultads Send you Photo</h6>
+                              <small class="d-block"
+                                >29 July 2020 - 02:26 PM</small
+                              >
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-panel">
+                            <div class="media mr-2 media-danger">KG</div>
+                            <div class="media-body">
+                              <h6 class="mb-1">Resport created successfully</h6>
+                              <small class="d-block"
+                                >29 July 2020 - 02:26 PM</small
+                              >
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-panel">
+                            <div class="media mr-2 media-primary">
+                              <i class="fa fa-home"></i>
+                            </div>
+                            <div class="media-body">
+                              <h6 class="mb-1">Reminder : Treatment Time!</h6>
+                              <small class="d-block"
+                                >29 July 2020 - 02:26 PM</small
+                              >
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <a class="all-notification" href="#"
+                      >See all notifications <i class="ti-arrow-right"></i
+                    ></a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown header-profile">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    role="button"
+                    data-toggle="dropdown"
+                  >
+                    <img src="images/profile/17.jpg" width="20" alt="" />
+                    <div class="header-info">
+                      <span class="text-black">Oda Dink</span>
+                      <p class="fs-12 mb-0">Super Admin</p>
+                    </div>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a href="profile.html" class="dropdown-item ai-icon">
+                      <svg
+                        id="icon-user1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-primary"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+                        ></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                      </svg>
+                      <span class="ml-2">Profile </span>
+                    </a>
+
+                    <a href="page-login.html" class="dropdown-item ai-icon">
+                      <svg
+                        id="icon-logout"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="text-danger"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"
+                        ></path>
+                        <polyline points="16 17 21 12 16 7"></polyline>
+                        <line x1="21" y1="12" x2="9" y2="12"></line>
+                      </svg>
+                      <span class="ml-2">Logout </span>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+      <!--**********************************
+            Sidebar start
+        ***********************************-->
+      <div class="deznav">
+        <div class="deznav-scroll">
+          <ul class="metismenu" id="menu">
+            <li>
+              <a href="./index.html" aria-expanded="false">
+                <i class="flaticon-381-layer-1"></i>
+                <span class="nav-text">Overview</span>
+              </a>
+            </li>
+            <li>
+              <a href="./employers.html" aria-expanded="false">
+                <i class="flaticon-381-networking"></i>
+                <span class="nav-text">Employers</span>
+              </a>
+            </li>
+            <li>
+              <a href="./users.html" aria-expanded="false">
+                <i class="flaticon-381-layer-1"></i>
+                <span class="nav-text">Users</span>
+              </a>
+            </li>
+            <li>
+              <a href="./jobs.html" aria-expanded="false">
+                <i class="flaticon-381-television"></i>
+                <span class="nav-text">Jobs</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="./admin.html" aria-expanded="false">
+                <i class="flaticon-381-controls-3"></i>
+                <span class="nav-text">Admin</span>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="has-arrow ai-icon"
+                href="javascript:void()"
+                aria-expanded="false"
+              >
+                <i class="flaticon-381-network"></i>
+                <span class="nav-text">Payment</span>
+              </a>
+              <ul aria-expanded="false">
+                <li><a href="table-bootstrap-basic.html">Bootstrap</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="copyright"></div>
+        </div>
+      </div>
+      <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+      <!--**********************************
+            Content body start
+        ***********************************-->
+      <div class="content-body">
+        <div class="container-fluid">
+          <div class="page-titles">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="javascript:void(0)">Edit Company </a>
+              </li>
+            </ol>
+          </div>
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-12 order-lg-1 order-2">
+                      <h4 class="mb-3">Billing address</h4>
+                      <form class="needs-validation" novalidate="">
+                        <div class="row">
+                          <div class="col-md-6 mb-3">
+                            <label for="firstName">First name</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="firstName"
+                              placeholder=""
+                              value=""
+                              required=""
+                            />
+                            <div class="invalid-feedback">
+                              Valid first name is required.
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="lastName">Last name</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="lastName"
+                              placeholder=""
+                              value=""
+                              required=""
+                            />
+                            <div class="invalid-feedback">
+                              Valid last name is required.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="username">Username</label>
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">@</span>
+                            </div>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="username"
+                              placeholder="Username"
+                              required=""
+                            />
+                            <div class="invalid-feedback d-block">
+                              Your username is required.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="email"
+                            >Email
+                            <span class="text-muted">(Optional)</span></label
+                          >
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="you@example.com"
+                          />
+                          <div class="invalid-feedback">
+                            Please enter a valid email address for shipping
+                            updates.
+                          </div>
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="address">Address</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="address"
+                            placeholder="1234 Main St"
+                            required=""
+                          />
+                          <div class="invalid-feedback">
+                            Please enter your shipping address.
+                          </div>
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="address2"
+                            >Address 2
+                            <span class="text-muted">(Optional)</span></label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="address2"
+                            placeholder="Apartment or suite"
+                          />
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-5 mb-3">
+                            <label for="country">Country</label>
+                            <select
+                              class="d-block w-100"
+                              id="country"
+                              required=""
+                            >
+                              <option value="">Choose...</option>
+                              <option>United States</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Please select a valid country.
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="state">State</label>
+                            <select
+                              class="d-block w-100"
+                              id="state"
+                              required=""
+                            >
+                              <option value="">Choose...</option>
+                              <option>California</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Please provide a valid state.
+                            </div>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label for="zip">Zip</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="zip"
+                              placeholder=""
+                              required=""
+                            />
+                            <div class="invalid-feedback">
+                              Zip code required.
+                            </div>
+                          </div>
+                        </div>
+                        <hr class="mb-4" />
+                        <div class="custom-control custom-checkbox mb-2">
+                          <input
+                            type="checkbox"
+                            class="custom-control-input"
+                            id="same-address"
+                          />
+                          <label class="custom-control-label" for="same-address"
+                            >Shipping address is the same as my billing
+                            address</label
+                          >
+                        </div>
+                        <div class="custom-control custom-checkbox mb-2">
+                          <input
+                            type="checkbox"
+                            class="custom-control-input"
+                            id="save-info"
+                          />
+                          <label class="custom-control-label" for="save-info"
+                            >Save this information for next time</label
+                          >
+                        </div>
+                        <hr class="mb-4" />
+
+                        <h4 class="mb-3">Payment</h4>
+
+                        <div class="d-block my-3">
+                          <div class="custom-control custom-radio mb-2">
+                            <input
+                              id="credit"
+                              name="paymentMethod"
+                              type="radio"
+                              class="custom-control-input"
+                              checked=""
+                              required=""
+                            />
+                            <label class="custom-control-label" for="credit"
+                              >Credit card</label
+                            >
+                          </div>
+                          <div class="custom-control custom-radio mb-2">
+                            <input
+                              id="debit"
+                              name="paymentMethod"
+                              type="radio"
+                              class="custom-control-input"
+                              required=""
+                            />
+                            <label class="custom-control-label" for="debit"
+                              >Debit card</label
+                            >
+                          </div>
+                          <div class="custom-control custom-radio mb-2">
+                            <input
+                              id="paypal"
+                              name="paymentMethod"
+                              type="radio"
+                              class="custom-control-input"
+                              required=""
+                            />
+                            <label class="custom-control-label" for="paypal"
+                              >Paypal</label
+                            >
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 mb-3">
+                            <label for="cc-name">Name on card</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="cc-name"
+                              placeholder=""
+                              required=""
+                            />
+                            <small class="text-muted"
+                              >Full name as displayed on card</small
+                            >
+                            <div class="invalid-feedback">
+                              Name on card is required
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="cc-number">Credit card number</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="cc-number"
+                              placeholder=""
+                              required=""
+                            />
+                            <div class="invalid-feedback">
+                              Credit card number is required
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-3 mb-3">
+                            <label for="cc-expiration">Expiration</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="cc-expiration"
+                              placeholder=""
+                              required=""
+                            />
+                            <div class="invalid-feedback">
+                              Expiration date required
+                            </div>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label for="cc-expiration">CVV</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="cc-cvv"
+                              placeholder=""
+                              required=""
+                            />
+                            <div class="invalid-feedback">
+                              Security code required
+                            </div>
+                          </div>
+                        </div>
+                        <hr class="mb-4" />
+                        <button
+                          class="btn btn-primary btn-lg btn-block"
+                          type="submit"
+                        >
+                         Edit Profile
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--**********************************
+            Content body end
+        ***********************************-->
+
+      <!--**********************************
+            Footer start
+        ***********************************-->
+      <div class="footer"></div>
+      <!--**********************************
+            Footer end
+        ***********************************-->
+
+      <!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+      <!--**********************************
+           Support ticket button end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="vendor/global/global.min.js"></script>
+    <script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
+    <script src="vendor/highlightjs/highlight.pack.min.js"></script>
+    <!-- Circle progress -->
+
+    <script src="js/custom.min.js"></script>
+    <script src="js/deznav-init.js"></script>
+    <script src="js/demo.js"></script>
+  </body>
+
+  <!-- Mirrored from jobie.dexignzone.com/xhtml/ecom-checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Oct 2021 21:00:03 GMT -->
+</html>
